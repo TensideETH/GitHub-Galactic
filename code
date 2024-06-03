@@ -1,0 +1,11 @@
+class GitHubGalactic:
+    def __init__(self, repositories):
+        self.repositories = repositories
+
+    def explore(self):
+        print("Exploring the GitHub Galactic...")
+        for repo in self.repositories:
+            print(f"Repository: {repo}")
+
+github_galactic = GitHubGalactic(["Repo1", "Repo2", "Repo3"])
+github_galactic.explore()
